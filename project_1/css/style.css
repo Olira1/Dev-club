@@ -1,0 +1,82 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+}
+
+.main_class {
+  height: 90vh;
+  border: 6px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.outer_div {
+  border: 6px solid white;
+  background-color: white;
+  border-radius: 20px;
+  width: 270px;
+  height: 270px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.iner_div img {
+  width: 115px;
+  border-radius: 50%;
+}
+
+.iner_div .image_class {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.iner_div .Topic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12px;
+  margin-bottom: 8px;
+}
+
+.iner_div .text_class {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.iner_div .text_class .par1 {
+  margin-right: 3px;
+}
+
+.iner_div .text_class .par2 {
+  border-left: 1px solid rgb(105, 103, 103);
+  padding-left: 3px;
+}
+
+.bottum_class label input {
+  background-color: blue;
+  color: aliceblue;
+}
+
+input {
+    padding: 8px 18px;
+    border-radius: 9px;
+}
+
+label:hover {
+    cursor: pointer;
+}
+
+.iner_div .bottum_class {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
